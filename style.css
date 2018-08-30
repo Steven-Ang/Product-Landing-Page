@@ -14,6 +14,26 @@ header {
           Layout
 ======================= */
 
+#about {
+  background-color: tomato;
+  height: 519px;
+}
+
+#stats {
+  background-color: tan;
+  height: 521px;
+}
+
+#menu {
+  background-color: turquoise;
+  height: 920px;
+}
+
+#contact {
+  background-color: #ddd;
+  height: 400px;
+}
+
 /* =======================
         Typography
 ======================= */
