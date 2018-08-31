@@ -24,6 +24,10 @@ iframe {
   height: 100%;
 }
 
+input[type="email"] {
+  width: 100%;
+}
+
 /* =======================
           Layout
 ======================= */
@@ -46,7 +50,7 @@ iframe {
 #info {
   background-color: #ddd;
   height: 400px;
-}
+} 
 
 /* =======================
         Typography
