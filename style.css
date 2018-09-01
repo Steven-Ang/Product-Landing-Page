@@ -33,7 +33,8 @@ input[type="email"] {
 ======================= */
 
 #about {
-  background-color: tomato;
+  background: url(https://images.pexels.com/photos/687824/pexels-photo-687824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) center center;
+  color: #fff;
   padding: 12% 0;
 }
 
@@ -42,8 +43,9 @@ input[type="email"] {
 }
 
 #stats {
-  background-color: tan;
+  background: url(https://images.pexels.com/photos/1199960/pexels-photo-1199960.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center center;
   padding: 15% 0;
+  color: #fff;
   text-transform: uppercase;
   font-size: 1.35rem;
   text-align: center;
@@ -62,8 +64,9 @@ input[type="email"] {
 }
 
 #menu {
-  background-color: turquoise;
+  background: url(https://images.pexels.com/photos/80597/burger-hamburger-onion-tomatoe-80597.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center center;
   padding: 12% 0;
+  color: #fff;
 }
 
 .menu-header {
@@ -96,7 +99,11 @@ input[type="email"] {
 
 #about small {
   font-size: .75rem;
-  color: #777;
+  color: #ccc;
+}
+
+#stats h1 {
+  font-size: 1.5rem;
 }
 
 #menu p {
@@ -223,8 +230,8 @@ input[type="email"] {
   }
 }
 
-.text-shadow {
-  text-shadow: 2px 2px 12px rgb(0, 0, 0);
+.shadow {
+  text-shadow: 1px 0px 7px #000000;
 }
 
 /* =======================
@@ -246,6 +253,7 @@ input[type="email"] {
   }
 
   #stats {
+    background-size: cover;
     padding: 7% 0;
   }
 
