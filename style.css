@@ -34,23 +34,81 @@ input[type="email"] {
 
 #about {
   background-color: tomato;
+  padding: 12% 0;
+}
+
+#video-div {
+  margin-top: 20px;
 }
 
 #stats {
   background-color: tan;
+  padding: 15% 0;
+  text-transform: uppercase;
+  font-size: 1.35rem;
+  text-align: center;
+}
+
+#stats .col-md-3 {
+  margin: 5px 0;
+}
+
+#stats h2 {
+  margin: 0;
+}
+
+#stats small {
+  letter-spacing: 1.5px;
 }
 
 #menu {
   background-color: turquoise;
+  padding: 12% 0;
+}
+
+.menu-header {
+  margin: 10px 0;
 }
 
 #info {
   background-color: #ddd;
-} 
+  padding: 12% 0;
+}
+
+.directions small {
+  margin: 15px 0;
+}
 
 /* =======================
         Typography
 ======================= */
+
+#about h2 {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+#about small {
+  font-size: .75rem;
+  color: #777;
+}
+
+#menu p {
+  margin: 0;
+}
+
+#menu li {
+  margin: 10px;
+}
+
+.menu-header h2 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.starter, .mains {
+  text-align: center;
+}
 
 /* =======================
           Slider
@@ -59,9 +117,9 @@ input[type="email"] {
 #landing-header {
   position: relative;
   text-align: center;
-  padding-top: 40vh;
   width: 100%;
-  height: 100vh;
+  height: 60vh;
+  padding-top: 30%;
 }
 
 #landing-body {
@@ -72,6 +130,7 @@ input[type="email"] {
 
 #landing-body h1,
 #landing-body h4 {
+  font-size: 1.50rem;
   color: white;
 	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.45);
 }
@@ -85,6 +144,10 @@ input[type="email"] {
 #landing-body h4 {
   letter-spacing: 1.50px;
   padding: 3px;
+}
+
+#landing-body .btn {
+  font-size: 1rem;
 }
 
 .slideshow { 
@@ -156,4 +219,27 @@ input[type="email"] {
 
 .text-shadow {
   text-shadow: 2px 2px 12px rgb(0, 0, 0);
+}
+
+/* =======================
+       Media Queries
+======================= */
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* @media (max-width: 575.98px) {
+/* } */
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
 }
