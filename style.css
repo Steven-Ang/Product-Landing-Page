@@ -34,22 +34,18 @@ input[type="email"] {
 
 #about {
   background-color: tomato;
-  height: 519px;
 }
 
 #stats {
   background-color: tan;
-  height: 521px;
 }
 
 #menu {
   background-color: turquoise;
-  height: 920px;
 }
 
 #info {
   background-color: #ddd;
-  height: 400px;
 } 
 
 /* =======================
@@ -120,18 +116,22 @@ input[type="email"] {
 .slideshow li:nth-child(1) { 
   background-image: url(https://images.pexels.com/photos/769289/pexels-photo-769289.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
 }
+
 .slideshow li:nth-child(2) { 
   background-image: url(https://images.pexels.com/photos/842545/pexels-photo-842545.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   animation-delay: 5s; 
 }
+
 .slideshow li:nth-child(3) { 
   background-image: url(https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   animation-delay: 10s; 
 }
+
 .slideshow li:nth-child(4) { 
   background-image: url(https://images.pexels.com/photos/568370/pexels-photo-568370.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   animation-delay: 15s; 
 }
+
 .slideshow li:nth-child(5) { 
   background-image: url(https://images.pexels.com/photos/890507/pexels-photo-890507.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   animation-delay: 20s; 
