@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Merriweather', serif;
+}
+
 header {
   padding-bottom: 56px;
 }
